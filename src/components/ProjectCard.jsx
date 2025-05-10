@@ -15,7 +15,7 @@ function ProjectCard({ title, image, description, tech, github, demo }) {
                 <img
                     src={image}
                     alt={`${title} screenshot`}
-                    className="w-full h-48 object-cover rounded-md mb-4 border border-gray-700"
+                    className="w-full h-auto object-contain rounded-md mb-4 border border-gray-700"
                 />
             )}
             <p className="text-gray-300 text-sm mb-4">{description}</p>
