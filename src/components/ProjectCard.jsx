@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
-function ProjectCard({ title, description, tech, github, demo }) {
+function ProjectCard({ title, image, description, tech, github, demo }) {
     return (
         <motion.div
             className="bg-[#1a1a1a]/70 backdrop-blur-md p-6 rounded-xl border border-gray-700 hover:border-green-400 hover:shadow-green-500/20 transition-all duration-300 shadow-lg"
@@ -11,6 +11,13 @@ function ProjectCard({ title, description, tech, github, demo }) {
             transition={{ duration: 0.1 }}
         >
             <h3 className="text-xl font-semibold text-white mb-3">{title}</h3>
+            {image && (
+                <img
+                    src={image}
+                    alt={`${title} screenshot`}
+                    className="w-full h-48 object-cover rounded-md mb-4 border border-gray-700"
+                />
+            )}
             <p className="text-gray-300 text-sm mb-4">{description}</p>
 
             {/* Tech Stack */}
