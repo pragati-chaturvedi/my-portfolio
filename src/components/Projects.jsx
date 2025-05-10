@@ -47,7 +47,7 @@ function Projects() {
                     />
 
                     <ProjectCard
-                        title="Chaos Game"
+                        title="Chaos Game - Fractal Visualisation UI"
                         description="A web application that allows users to explore fractals of polygons in real life based on the mathematical concept of the chaos game, using React and Canvas API. The application uses an algorithm to generate fractals, based on the Sierpinski Triangle, but with an additional option to generate Hexagon as well."
                         tech="React, Canvas API, React Router"
                         github="https://github.com/pragati-chaturvedi/chaos-game"
