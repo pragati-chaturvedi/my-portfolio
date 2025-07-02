@@ -32,8 +32,8 @@ function Projects() {
                     <ProjectCard
                         title="MindShelf - A Personal Knowledge Library"
                         image="/Projects/MindShelf.png"
-                        description="Built this project for MLH AI Hackfest Hackathon. It helps users easily save and organise valuable online content—articles, videos, threads, or research papers—without losing track. Just paste a link, and Gemini summarises it, adds a title, tags which get saved as searchable “Mindfiles.” Users can find content later using natural language search by keyword, topic, or time.
-                        A Chrome Extension makes saving even easier while browsing. Built in under 24 hours, MindShelf turns scattered content into an organized, accessible library.Web App is presented in a responsive React dashboard.
+                        description="Built this project under 24 hours for MLH AI Hackfest Hackathon. It helps users easily save and organise valuable online content—articles, videos, threads, or research papers—without losing track. Just paste a link, and Gemini summarises it, adds a title, tags which get saved as searchable “Mindfiles.” Users can find content later using natural language search by keyword, topic, or time.
+                        A Chrome Extension makes saving even easier while browsing. MindShelf turns scattered content into an organized, accessible dashboard.
                         The backend handles AI summarization and metadata storage in MongoDB Atlas, while a seamless CRUD interface lets you add, edit, and revisit resources with one click. 
                         This project sharpened my skills in integrating generative AI into real-world productivity tools and building scalable, component-driven UIs."
                         tech="React.js, React Router, Node.js, Express.js, MongoDB Atlas, Gemini API, Chrome Extension API, HTML/CSS"

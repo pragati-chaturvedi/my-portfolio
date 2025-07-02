@@ -25,13 +25,22 @@ function About() {
                     transition={{ duration: 0.6 }}
                 >
                     <p className="text-gray-300 mb-4">
-                        I’m a soon-to-graduate Master’s student in Computer Science at California State University, Sacramento, currently working as a Web Developer with the University's IT department.
+                        I am a full-stack software engineer, AI enthusiast, and recent Computer Science graduate from California State University, Sacramento.
+                    </p>
+                    <p className='text-gray-300 mb-4'>
+                        I like building things that help in solving real-world problems. Whether it’s an AI-driven styling assistant that helps users decide what to wear (ChicMate), a content decluttering tool that turns your saved links into a personal knowledge system (MindShelf), or an intelligent assistant that manages library inventories through natural language (LibBot), every project I work on starts with a real-world friction point - and ends in a working product that tries to solve it.
+                    </p>
+                    <h2 className='text-2xl sm:text-xl font-bold text-gray-400 mb-4'>
+                        <strong>My Journey so far</strong>
+                    </h2>
+                    <p className="text-gray-300 mb-4">
+                        While pursuing my Master's, I joined the <strong>Web & Mobile Services team at CSU Sacramento</strong>, where I automated classification and anlysis of over 20,000 PDFs and 4,000+ web pages across the university's digital ecosystem. I developed methods to flag stale or orphaned content, designed ML pipelines for intelligent document classification, and led performance audits using GA4 to help departments understand what their users were actually doing. It was less about code and more about clarity — and how to make systems more usable, maintainable, and accessible.
                     </p>
                     <p className="text-gray-300 mb-4">
-                        My journey has taken me through AI-driven projects like <strong>ChicMate</strong> and <strong>LibBot</strong>, where I combined full-stack and mobile development with machine learning to build scalable, real-world applications.
+                        I build products where backend logic, interface design, and AI integration all talk to each other. I love the backend — data modeling, API design, AI workflows — but I also care deeply about how the frontend feels. I’m especially excited by generative AI, multi-modal systems, and anything that turns human intent into intelligent action.
                     </p>
                     <p className="text-gray-300 mb-4">
-                        I specialize in software development, AI integration, and accessibility. <strong>My main focus these days is</strong> building realiable, intelligent systems that bridge engineering with applied machine learning - and I'm actively seeking full-time opportunities in Software or ML engineering.
+                        Lately, I’ve been exploring Unity and game development, because curiosity doesn’t sit still. I'm also interested in system design, scalable architectures, and the creative ways AI can power everyday tools.
                     </p>
 
                     <div className="mt-6">
@@ -61,7 +70,7 @@ function About() {
 
                 {/* Image Section */}
                 <motion.div
-                    className="w-full sm:w-1/2 flex justify-center"
+                    className="w-full sm:w-1/2 flex flex-col items-center gap-6"
                     initial={{ opacity: 0, x: 40 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
@@ -69,6 +78,12 @@ function About() {
                     <motion.img
                         src="/DP.jpg"
                         alt="Pragati Chaturvedi"
+                        className="w-72 sm:w-96 h-auto rounded-xl object-cover border-4 border-green-400 shadow-xl transition-transform duration-300 hover:scale-105"
+                        whileHover={{ scale: 1.05 }}
+                    />
+                    <motion.img
+                        src="/CalHacks.HEIC"
+                        alt="Pragati Chaturvedi at Hackathon"
                         className="w-72 sm:w-96 h-auto rounded-xl object-cover border-4 border-green-400 shadow-xl transition-transform duration-300 hover:scale-105"
                         whileHover={{ scale: 1.05 }}
                     />
