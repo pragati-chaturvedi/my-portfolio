@@ -38,6 +38,7 @@ function Projects() {
                         This project sharpened my skills in integrating generative AI into real-world productivity tools and building scalable, component-driven UIs."
                         tech="React.js, React Router, Node.js, Express.js, MongoDB Atlas, Gemini API, Chrome Extension API, HTML/CSS"
                         github="https://github.com/AI-Hackathon-April-2025/MindShelf"
+                        demo="http://mindshelf-frontend.s3-website-us-east-1.amazonaws.com"
                     />
 
                     <ProjectCard
