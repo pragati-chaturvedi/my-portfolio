@@ -82,7 +82,7 @@ function About() {
                         whileHover={{ scale: 1.05 }}
                     />
                     <motion.img
-                        src="/CalHacks.HEIC"
+                        src="/CalHacks.jpg"
                         alt="Pragati Chaturvedi at Hackathon"
                         className="w-72 sm:w-96 h-auto rounded-xl object-cover border-4 border-green-400 shadow-xl transition-transform duration-300 hover:scale-105"
                         whileHover={{ scale: 1.05 }}
