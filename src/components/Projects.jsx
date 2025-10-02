@@ -42,12 +42,13 @@ function Projects() {
                     />
 
                     <ProjectCard
-                        title="LibBot - AI-Driven Library Management Chatbot"
-                        image="Projects/LibBot.png"
-                        description="Developed LibBot, an AI-powered chatbot that integrates OpenAI's GPT with Google Sheets to streamline the management of a library's inventory system. Using natural language processing, LibBot allows users to interact with the library’s database by querying, adding, searching, and updating book details directly through a conversational interface.
-                        LibBot demonstrates the power of AI in automating administrative tasks and improving user experiences. It shows my ability to integrate Google Sheets for data management while leveraging OpenAI’s GPT for natural and intuitive user interactions. This project reflects my expertise in building AI-driven applications and handling real-time data updates."
-                        tech="Python,Flask, OpenAI GPT API,Function-Calling, Google Sheets API"
-                        github="https://github.com/pragati-chaturvedi/LibBot"
+                        title="Hop ’n Dash – Desktop & Web Game"
+                        image="/Projects/Hop-n-Dash.png"
+                        description="Designed and developed a cross-platform 2D side-scrolling runner game from scratch using JavaScript, HTML5 Canvas, and CSS3. 
+                        Implemented a finite state machine to manage player actions (running, jumping, rolling, falling), integrated sprite-based animations, parallax backgrounds, collision detection, enemy AI, and particle effects. Packaged the game as a desktop app with Electron. Automated cross-platform builds and release pipelines (Windows .exe & MacOS .dmg) using Electron Forge and GitHub Actions."
+                        tech="JavaScript, HTML5 Canvas, CSS3, Electron, GitHub Actions"
+                        github="https://github.com/pragati-chaturvedi/Hop-n-Dash-Game"
+                        demo="https://pragati-chaturvedi.github.io/Hop-n-Dash-Game/"
                     />
 
                     <ProjectCard
@@ -60,6 +61,15 @@ function Projects() {
                     />
 
                     <ProjectCard
+                        title="LibBot - AI-Driven Library Management Chatbot"
+                        image="Projects/LibBot.png"
+                        description="Developed LibBot, an AI-powered chatbot that integrates OpenAI's GPT with Google Sheets to streamline the management of a library's inventory system. Using natural language processing, LibBot allows users to interact with the library’s database by querying, adding, searching, and updating book details directly through a conversational interface.
+                        LibBot demonstrates the power of AI in automating administrative tasks and improving user experiences. It shows my ability to integrate Google Sheets for data management while leveraging OpenAI’s GPT for natural and intuitive user interactions. This project reflects my expertise in building AI-driven applications and handling real-time data updates."
+                        tech="Python,Flask, OpenAI GPT API,Function-Calling, Google Sheets API"
+                        github="https://github.com/pragati-chaturvedi/LibBot"
+                    />
+
+                    <ProjectCard
                         title="AppointEase - AI-Powered Appointment Scheduling Bot"
                         image="/Projects/AppointEase.png"
                         description="Developed AppointEase, an intelligent appointment scheduling bot that integrates with Google Calendar. Using OpenAI's GPT-3.5 for natural language processing, AppointEase enables users to schedule, view, and manage appointments directly through conversational interactions. The bot's function-calling feature ensures seamless integration with Google Calendar, allowing for a smooth user experience.
@@ -67,6 +77,7 @@ function Projects() {
                         tech="Python, Flask, OpenAI API, Google Calendar API, Google Docs API, Tkinter, Open-AI Function-calling"
                         github="https://github.com/pragati-chaturvedi/AppointEase"
                     />
+
                 </div>
                 <div className="mt-10 flex justify-center">
                     <a
