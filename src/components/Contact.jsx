@@ -47,21 +47,9 @@ function Contact() {
                             className="w-24 h-24 object-contain border border-gray-700 rounded-md"
                         />
                         <p className="text-xs text-gray-400">
-                            Scan
+                            My Resume
                         </p>
                     </div>
-                    {/* <motion.a
-                        href="/Pragati_Chaturvedi_Resume.pdf"
-                        download
-                        className="inline-flex items-center gap-2 bg-green-400 text-black font-semibold px-6 py-2 rounded-xl hover:bg-green-300 transition"
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        whileHover={{ scale: 1.05 }}
-                        transition={{ duration: 0.2 }}
-                    >
-                        <FiDownload className="text-lg" />
-                        Download Resume
-                    </motion.a> */}
                 </div>
             </motion.div>
         </section>
