@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaDownload } from 'react-icons/fa';
 
-function ProjectCard({ title, image, description, tech, github, demo }) {
+function ProjectCard({ title, image, description, tech, github, demo, download }) {
     return (
         <motion.div
             className="bg-[#1a1a1a]/70 backdrop-blur-md p-6 rounded-xl border border-gray-700 hover:border-green-400 hover:shadow-green-500/20 transition-all duration-300 shadow-lg"
@@ -54,6 +54,18 @@ function ProjectCard({ title, image, description, tech, github, demo }) {
                     >
                         <FaExternalLinkAlt size={14} />
                         Live
+                    </a>
+                )}
+                {download && (
+                    <a
+                        href={download}
+                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-green-400 transition-colors flex items-center gap-1 text-sm"
+                    >
+                        <FaDownload size={14} />
+                        Download
                     </a>
                 )}
             </div>

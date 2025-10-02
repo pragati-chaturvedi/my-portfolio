@@ -49,6 +49,7 @@ function Projects() {
                         tech="JavaScript, HTML5 Canvas, CSS3, Electron, GitHub Actions"
                         github="https://github.com/pragati-chaturvedi/Hop-n-Dash-Game"
                         demo="https://pragati-chaturvedi.github.io/Hop-n-Dash-Game/"
+                        download="https://github.com/pragati-chaturvedi/Hop-n-Dash-Game/blob/main/README.md"
                     />
 
                     <ProjectCard
