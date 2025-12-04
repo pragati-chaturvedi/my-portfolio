@@ -40,16 +40,6 @@ function Contact() {
                             <FaLinkedin /> LinkedIn
                         </a>
                     </div>
-                    <div className="flex flex-col items-center mb-4">
-                        <img
-                            src="/Resume_QR.jpeg"
-                            alt="QR Code for Resume"
-                            className="w-24 h-24 object-contain border border-gray-700 rounded-md"
-                        />
-                        <p className="text-xs text-gray-400">
-                            My Resume
-                        </p>
-                    </div>
                 </div>
             </motion.div>
         </section>
